@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Helvetica-Neue-LT-GEO-45-Lights";
+  src: url("../fonts/HelveticaNeueLTGEO-45Lights.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueLTGEO-45Lights.woff") format("woff"),
+    url("../fonts/HelveticaNeueLTGEO-45Lights.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+header {
+  max-width: 1920px;
+  width: 100%;
+  min-height: 387.56px;
+  margin: 0 auto;
+  background-color: #0a22f4;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -55px;
+}
+ul {
+  list-style: none;
+  margin-right: 40px;
+}
+header ul {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.logo {
+  padding: 10px 5px;
+}
+ul li,
+a {
+  text-decoration: dashed;
+  color: #ffffff;
+  font-family: "Helvetica-Neue-LT-GEO-45-Lights";
+}
+.button1 {
+  color: #171717;
+}
+
+.firstimg img {
+  max-width: 1195px;
+  max-height: 600px;
+  margin: 0 150px auto;
+  transform: translateY(-180px);
+}
+h2 {
+  max-width: 714px;
+  max-height: 33px;
+  transform: translateY(-150px);
+  margin: 0 135px;
+}
+.imeges-div {
+  max-width: 219px;
+  max-height: 219px;
+  gap: 15px;
+  display: flex;
+  margin: 0 120px auto;
+  /* transform: translateY(-110px); */
+}
+.paragrap {
+  margin: 0 250px;
+}
+.paragrap1 {
+  max-width: 951px;
+  max-height: 177px;
+}
+.paragrap2 {
+  max-width: 951px;
+  max-height: 282px;
+  padding-top: 13px;
+}
+.paragrap3 {
+  max-width: 951px;
+  max-height: 151px;
+  padding-top: 14px;
+}
+.button {
+  max-width: 341px;
+  max-height: 55px;
+  display: flex;
+  background-color: #0a22f4;
+  border-radius: 40px;
+}
+
+button {
+  width: 151px;
+  height: 55px;
+
+  font-weight: bold;
+  font-size: 16px;
+}
+
+footer {
+  max-width: 1920px;
+  max-height: 1080px;
+  background-color: #0a22f4;
+}
+
+footer {
+  background-color: #0a22f4;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.PS-section {
+  display: grid;
+  padding: 10px;
+  padding-top: 275px;
+  /* background-color: #0a22f4; */
+  min-height: 400px;
+
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.PS-sec1 {
+  max-width: auto;
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+p {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+  max-width: 463px;
+  margin-top: 30px;
+  margin-bottom: 58px;
+}
+
+.PS-No-1 {
+  grid-row: 1;
+}
+
+.PS-No-2 {
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.PS-No-3 {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+.PS-No-4 {
+  grid-column: 1 / span 2;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.PS-undermap {
+  background-color: #ffffff;
+  width: 463px;
+  height: 200px;
+  position: relative;
+}
+
+.PS-Gmap {
+  position: absolute;
+  transform: translate(10px, -210px);
+}
+
+.PS-para {
+  padding: 20px;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-weight: bold;
+}
+
+.PS-phone {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70px;
+  height: 70px;
+  background-color: #ffffff;
+}
+
+.PS-phone-group {
+  max-width: 263px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.PS-email {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70px;
+  height: 70px;
+  background-color: #ffffff;
+}
+
+.PS-email-group {
+  margin-left: 98px;
+  max-width: 263px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.PS-ufleba {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 184px;
+}
+
+.PS-damzadebulia {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.PS-guli {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.PS-SW-logo {
+  margin-left: 30px;
+}
+
+.PS-input {
+  max-width: 463px;
+  min-height: 60px;
+  margin: 20 auto;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.PS-PLH {
+  padding: 5px 0;
+  margin: 5px 0 20px 0;
+  background-color: #0a22f4;
+  border-top: #0a22f4;
+  border-right: #0a22f4;
+  border-left: #0a22f4;
+  opacity: 0.3;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+}
+
+.PS-PLH-M {
+  max-width: 463px;
+  height: 120px;
+  padding: 5px 0;
+  margin: 5px 0 20px 0;
+  background-color: #0a22f4;
+  border-top: #0a22f4;
+  border-right: #0a22f4;
+  border-left: #0a22f4;
+  opacity: 0.3;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+}
+textarea {
+  max-width: 463px;
+  height: 120px;
+  padding: 5px 0;
+  background-color: #0a22f4;
+  border-top: #0a22f4;
+  border-right: #0a22f4;
+  border-left: #0a22f4;
+  opacity: 0.3;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+}
+
+.PS-button {
+  margin-top: 40px;
+  max-width: 463px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+button {
+  width: 151px;
+  height: 55px;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    max-width: 375px;
+    max-height: 185px;
+  }
+  nav {
+    opacity: 0;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .firstimg img {
+    max-width: 345px;
+    max-height: 210px;
+    margin: 0 240px auto;
+    transform: translateY(-130px);
+  }
+  h2 {
+    size: 18px;
+    margin-top: 50px;
+  }
+  .imeges-div {
+    max-width: 162px;
+    max-height: 90px;
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateY(-110px);
+  }
+  .mobile {
+    max-width: 162px;
+    max-height: 90px;
+    display: flex;
+  }
+  .paragrap1 {
+    max-width: 334px;
+    max-height: 461px;
+  }
+  .paragrap2 {
+    opacity: 0;
+  }
+  .paragrap3 {
+    opacity: 0;
+  }
+  .button {
+    transform: translateY(-540px);
+    margin: 0 300px;
+    color: #ffffff;
+  }
+}
